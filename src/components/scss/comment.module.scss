@@ -1,0 +1,12 @@
+@import "colors";
+
+.single_comment {
+  padding: 10px 20px;
+  margin: 0 10px 20px -20px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+  h4 {
+    text-transform: uppercase;
+  }
+}

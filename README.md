@@ -5,6 +5,7 @@ Posts and comments used with https://jsonplaceholder.typicode.com/ and the abili
 Technologies used:
 HTML, Sass, React, Bootstrap, fetch.
 
+
 To run the project:
 
 ### `npm i`

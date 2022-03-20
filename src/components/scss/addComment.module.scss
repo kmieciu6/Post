@@ -1,0 +1,44 @@
+@import "colors";
+
+.comment_form {
+  margin: 20px 0;
+
+  .form_group {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    margin: 0 10px;
+    background: $color-primary;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    h3 {
+      text-transform: none;
+    }
+
+    .input {
+      width: 100%;
+      background: $color-input;
+      color: $color-input-text;
+      border-radius: 10px;
+      border: 1px solid grey;
+    }
+
+    .textarea {
+      background: $color-input;
+      color: $color-input-text;
+      border-radius: 10px;
+      border: 1px solid grey;
+    }
+
+    .button {
+      margin: 5px 0;
+      background: $color-button;
+      color: $color-button-text;
+      border-radius: 10px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      padding: 5px 0;
+    }
+  }
+}
